@@ -252,8 +252,8 @@
       the project and will be destroyed no later than
       September 1, 2024.</p>
 
-
-
+    <p onclick="showPrivacyPolicyInfo()" title="Open Privacy Policy popup" style="font-weight: bold; color:rgb(17, 0, 255);">Read about privacy policy</p>
+    <br>
     <button id="allowPrivacyPolicy" onclick="allowPrivacyPolicy()">Accept</button>
 
   </div>
@@ -272,7 +272,7 @@
         is the visitor’s / user’s computer’s IP address , or from which
         Internet address the information is sent and received. </p> 
      
-      <p> Using the information provided by cookies Haaga-Helia University of Applied Sciences and its partners
+      <p> Using the information provided by cookies TailorFit and its partners
         are able to track the number of visitors on the site, as well as to
         analyze and develop the sites to serve the visitors better.</p>
         
@@ -285,13 +285,14 @@
         settings so that the browser does not accept cookies. A visitor agrees that
         the prevention of the use of cookies may affect the functionality of the service / site.</p>
         
-       <p>Using the information provided by cookies HXRC and its partners are able to track
+       <p>Using the information provided by cookies TailorFit and its partners are able to track
         the number of visitors on the site, as well as to analyze and develop the sites to serve
         the visitors better. In addition, HXRC’s partners may use cookies for targeted advertising,
         in order to collect information about the visitor’s visits to this and other websites. The
         information collected by the cookies is used in providing targeted advertising on the basis
         of the visitors’ interests. In the targeted cookie based advertising, the visitors are not
-        identified and the data is not associated with personal information given by the visitor in another context.</p>
+        identified and the data is not associated with personal information given by the visitor 
+        in another context.</p>
         
         <p>The visitor can prevent the use of cookies by changing the browser settings so that the
         browser does not accept cookies. A visitor agrees that the prevention of the use of cookies
@@ -313,7 +314,7 @@
         of public sector bodies) and the Finnish Act on the Provision of Digital Services (306/2019) supplementing it.
       </p>
     </div>
-  
+  <br>
     <button id="closePopUp" onclick="closePrivacyPolicyInfo()">Close</button>
 
   </div>
@@ -329,7 +330,7 @@ for (i = 0; i < coll.length; i++) {
     if (content.style.maxHeight){
       content.style.maxHeight = null;
     } else {
-      content.style.maxHeight = content.scrollHeight + "px";
+      content.style.maxHeight = 0;
     } 
   });
 }

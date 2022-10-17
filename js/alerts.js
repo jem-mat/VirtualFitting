@@ -58,3 +58,4 @@ function closePrivacyPolicyInfo() {
     document.getElementById("popup").style.display = "none";
   }
 }
+
