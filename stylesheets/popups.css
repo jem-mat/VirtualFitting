@@ -18,10 +18,10 @@
   border-radius: 0.375em;
   cursor: pointer;
   color: white;
-  background: linear-gradient(120deg, rgb(56, 79, 63), rgb(86, 199, 0), rgb(255, 218, 5));
+  background: linear-gradient(90deg,white,  rgb(255, 255, 255), rgb(255, 255, 255),rgb(244, 236, 7), rgb(29, 156, 0), white);
   background-size: 200% 100%;
   background-position: 100% 0;
-  transition: background-position .10s;
+  transition: background-position .50s;
 
  /* width: 80%;
   background-color: rgba(50, 110, 63, 0.607);
