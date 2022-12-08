@@ -1,7 +1,39 @@
 /* Popup window*/
+
+#contest {
+  width: 80%;
+  letter-spacing: 3px;
+
+  text-align: center;
+  padding: 8px 0px 8px 0px;
+  cursor: pointer;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+}
+
+#contest:hover {
+  
+  border-radius: 0.375em;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(120deg, rgb(56, 79, 63), rgb(86, 199, 0), rgb(255, 218, 5));
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  transition: background-position .10s;
+
+ /* width: 80%;
+  background-color: rgba(50, 110, 63, 0.607);
+  color: #fff;
+  text-align: center;
+  padding: 8px 0px 8px 0px;
+  cursor:pointer;*/
+}
+
 .popup {
   background-color: #d2d2d2b2;
-  width: 70%;
+  width: 80%;
   max-height: 90%;
   padding: 30px 40px;
   position: absolute;
@@ -180,7 +212,7 @@ input[type="submit"] {
   .popup {
     background-color: #d2d2d2b2;
     max-width: 99%;
-    padding: 30px 40px;
+    padding: 20px 15px;
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
@@ -227,6 +259,30 @@ input[type="submit"] {
     text-align: center;
     z-index: 800;
   }
+ 
+#contest {
+  width: 100%;
+  text-align: center;
+  padding: 8px 0px 8px 0px;
+  cursor: pointer;
+  letter-spacing: 2px;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+
+  
+}
+
+#contest:hover {
+  width: 100%;
+  background-color: rgba(50, 110, 63, 0.607);
+  color: #fff;
+  text-align: center;
+  padding: 8px 0px 8px 0px;
+  cursor:pointer;
+}
+
 }
 
 /*Popup notification for small messages */
@@ -257,6 +313,8 @@ input[type="submit"] {
 
 }
 
+
+
 #PrivacyPolicyInfoButton {
  
   background: none;
@@ -279,9 +337,9 @@ input[type="submit"] {
 /*Privacy Policy popup*/
 .popupPrivacyInfo {
   background-color: #d2d2d2b2;
-  width: 70%;
+  width: 80%;
   max-height: 90%;
-  padding: 30px 40px;
+  padding: 20px 15px;
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
@@ -289,7 +347,8 @@ input[type="submit"] {
   border-radius: 8px;
   display: none;
   font-family: "Poppins", sans-serif;
-  text-align: center;
+  font-size: smaller;
+  text-align: left;
   z-index: 800;
   overflow: scroll;
 
